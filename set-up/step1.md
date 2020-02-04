@@ -4,6 +4,9 @@ Execute an echo command.
 `echo "Run in Terminal"`{{execute}}
 
 Install python.
+`sudo add-apt-repository ppa:myhome/python3.6 install python 3.6`{{execute}}
+`sudo apt-get update`{{execute}}
+`sudo apt-get install python 3.6`{{execute}}
 
 Install tensorflow.
 `pip install tensorflow`{{execute}}
