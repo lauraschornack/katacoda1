@@ -11,7 +11,7 @@ Install python.
 `sudo apt-get install python 3.6`{{execute}}
 
 Install tensorflow.
-`pip install tensorflow`{{execute}}
+`pip install tensorflow==1.2.0 --ignore-installed`{{execute}}
 
 Test your tensorflow install by running the following import commands.
 `import tensorflow as tf`{{execute}}
