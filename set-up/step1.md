@@ -10,6 +10,9 @@ Install python.
 Install tensorflow.
 `pip install tensorflow==1.2.0 --ignore-installed`{{execute}}
 
+Install tensorflow.
+`pip install matplotlib`{{execute}}
+
 Open a python shell with python3
 `python3`{{execute}}
 
