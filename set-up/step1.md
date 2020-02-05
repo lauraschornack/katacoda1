@@ -13,6 +13,9 @@ Install python.
 Install tensorflow.
 `pip install tensorflow==1.2.0 --ignore-installed`{{execute}}
 
+Open a python shell with python3
+`python3`{{execute}}
+
 Test your tensorflow install by running the following import commands.
 `import tensorflow as tf`{{execute}}
 
