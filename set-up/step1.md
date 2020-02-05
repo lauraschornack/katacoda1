@@ -1,5 +1,7 @@
 This scenario will take us through the steps we need to set up our tensorflow and python environment to create a basic ML model.
 
+`git clone https://github.com/lauraschornack/katacoda1.git`{{execute}}
+
 Install python.
 `sudo add-apt-repository ppa:myhome/python3.6`
 
