@@ -1,14 +1,11 @@
 This scenario will take us through the steps we need to set up our tensorflow and python environment to create a basic ML model.
 
-Execute an echo command.
-`echo "Run in Terminal"`{{execute}}
-
 Install python.
-`sudo add-apt-repository ppa:myhome/python3.6`{{execute}}
+`sudo add-apt-repository ppa:myhome/python3.6`
 
 `sudo apt-get update`{{execute}}
 
-`sudo apt-get install python 3.6`{{execute}}
+`sudo apt-get install python3`{{execute}}
 
 Install tensorflow.
 `pip install tensorflow==1.2.0 --ignore-installed`{{execute}}
