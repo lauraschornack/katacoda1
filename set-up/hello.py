@@ -1,8 +1,23 @@
 import tensorflow as tf
 import numpy as np
 import math
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
+
+
+
 import matplotlib.animation as animation
+from flask import Flask
+app = Flask(__name__)
+
+@app.route('/')
+def hello_world():
+    return 'Hey, we have Flask in a Docker container!'
+
+if __name__ == '__main__':
+    app.run(debug=True, host='0.0.0.0')
+
 sess = tf.Session()
 hello = tf.constant("Hello Laura from TensorFlow")
 print(sess.run(hello))
@@ -125,7 +140,4 @@ with tf.Session() as sess:
  
     plt.legend(loc='upper left')
     plt.show()
-
-#
-
 
