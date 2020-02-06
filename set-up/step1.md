@@ -1,6 +1,20 @@
 This scenario will take us through the steps we need to set up our tensorflow and python environment to create a basic ML model.
 
+Option 1: Setup with containers:
+
+Pull down docker file from my git hub
 `git clone https://github.com/lauraschornack/katacoda1.git`{{execute}}
+
+Install python.
+`cd katacoda1/setup`{{execute}}
+
+Install python.
+`docker build . -t katacoda1docker`{{execute}}
+
+Install python.
+`docker run -p 5000:5000 -it --rm katacodaimage`{{execute}}
+---------------
+Option 2: Setup without containers
 
 Install python.
 `sudo add-apt-repository ppa:myhome/python3.6`
