@@ -12,7 +12,7 @@ Install python.
 `docker build . -t katacoda1docker`{{execute}}
 
 Install python.
-`docker run -p 5000:5000 -it --rm katacoda1docker`{{execute}}
+`docker run -p 8500:8500 -it --rm katacoda1docker`{{execute}}
 
 Render port 8500: https://[[HOST_SUBDOMAIN]]-8500-[[KATACODA_HOST]].environments.katacoda.com/
 
