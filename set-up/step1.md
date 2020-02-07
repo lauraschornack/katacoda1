@@ -6,13 +6,21 @@ Pull down docker file from my git hub
 `git clone https://github.com/lauraschornack/katacoda1.git`{{execute}}
 
 Install python.
-`cd katacoda1/setup`{{execute}}
+`cd katacoda1/set-up`{{execute}}
 
 Install python.
 `docker build . -t katacoda1docker`{{execute}}
 
 Install python.
-`docker run -p 5000:5000 -it --rm katacodaimage`{{execute}}
+`docker run -p 5000:5000 -it --rm katacoda1docker`{{execute}}
+
+Render port 8500: https://[[HOST_SUBDOMAIN]]-8500-[[KATACODA_HOST]].environments.katacoda.com/
+
+Render port 80: https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/
+
+Display page allowing user to select port:
+https://[[HOST_SUBDOMAIN]]-[[KATACODA_HOST]].environments.katacoda.com/
+        
 ---------------
 Option 2: Setup without containers
 
