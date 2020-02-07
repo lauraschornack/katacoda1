@@ -16,6 +16,7 @@ def hello_world():
     return 'Hey, we have Flask in a Docker container!'
 
 if __name__ == '__main__':
+    app.run(port=8500)
 
     sess = tf.Session()
     hello = tf.constant("Hello Laura from TensorFlow")
