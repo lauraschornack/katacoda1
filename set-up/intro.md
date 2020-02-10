@@ -17,3 +17,6 @@ tensorflow and python environment to create a basic ML model.
 If you choose to do containers, go with Option 1.
 If you chose to do a setup without containers, skip to Option 2.  
 You do not need both options. 
+
+The container approach is recommended for this tutorial.
+

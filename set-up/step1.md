@@ -7,6 +7,11 @@ Option 1: Setup with containers:
 
 For each step, either click on the highlighted text to run it in the terminal, or if you prefer, you can type it.  
 
+Container Setup:
+<pre>
+![Katacoda Logo](/scenario-examples/scenarios/displaying-images/assets/logo-text-with-head.png)
+</pre>
+
 Step 1:
 Pull down docker file from my git hub
 `git clone https://github.com/lauraschornack/katacoda1.git`{{execute}}
