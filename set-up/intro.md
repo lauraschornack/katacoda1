@@ -1,5 +1,13 @@
 Welcome to Scenario 1 of the "Serving a Machine Learning Model in a Private Cloud" Tutorial.
 
+The goal of this tutorial is to provide a basic example of how to set up an environment, create a model and serve a model in order to integrate it into an application.  
+
+At the end of this tutorial, you should be able to call an endpoint to your model from your application, have it take in data, save the data to make the scenario evergreen and return a prediction to the caller.
+
+<pre>
+![ML Integration Flow](ML-Model-App_Integration.png)
+</pre>
+
 This tutorial has three scenarios.
 
 Scenario 1:
@@ -19,4 +27,5 @@ If you chose to do a setup without containers, skip to Option 2.
 You do not need both options. 
 
 The container approach is recommended for this tutorial.
+
 
