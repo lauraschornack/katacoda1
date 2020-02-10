@@ -14,7 +14,12 @@ Pull down docker file from my git hub
 Step 2:
 `cd katacoda1/set-up`{{execute}}
 
+The Docker file looks like this:
+We are adding the following components into our container.
+`katacoda1docker`{{open}}.
+
 Step 3:
+Build the docker file. 
 `docker build . -t katacoda1docker`{{execute}}
 
 Step 4:
@@ -53,7 +58,7 @@ Step 6:
 Open a python shell with python3
 `python3`{{execute}}
 
-Step 7:
+Test your environment:
 Test your tensorflow install by running the following import commands.
 `import tensorflow as tf`{{execute}}
 
