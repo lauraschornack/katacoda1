@@ -1,27 +1,21 @@
-Step 6:
-Open a python shell with python3
-`python3`{{execute}}
+Step 2:
+`cd katacoda1/set-up`{{execute}}
 
-Test your environment:
-Test your tensorflow install by running the following import commands.
-`import tensorflow as tf`{{execute}}
+The Docker file looks like this:
+We are adding the following components into our container.
+`katacoda1docker`{{open}}.
 
-`import numpy as np`{{execute}}
+Step 3:
+Build the docker file. 
+`docker build . -t katacoda1docker`{{execute}}
 
-`import math`{{execute}}
+Step 4:
+`docker run -p 8500:8500 -it --rm katacoda1docker`{{execute}}
 
-`import matplotlib.pyplot as plt`{{execute}}
 
-`import matplotlib.animation as animation`{{execute}}
+Render port 8500: https://[[HOST_SUBDOMAIN]]-8500-[[KATACODA_HOST]].environments.katacoda.com/
 
-`sess = tf.Session()`{{execute}}
+Render port 80: https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/
 
-`hello = tf.constant("Hello from tensorflow")`{{execute}}
-
-`print(sess.run(hello))`{{execute}}
-
-`a = tf.constant(20)`{{execute}}
-
-`b = tf.constant(22)`{{execute}}
-
-`print('a + B = {0}'.format(sess.run(a+b)))`{{execute}}
+Display page allowing user to select port:
+https://[[HOST_SUBDOMAIN]]-[[KATACODA_HOST]].environments.katacoda.com/
