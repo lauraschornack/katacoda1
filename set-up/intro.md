@@ -4,9 +4,8 @@ The goal of this tutorial is to provide a basic example of how to set up an envi
 
 At the end of this tutorial, you should be able to call an endpoint to your model from your application, have it take in data, save the data to make the scenario evergreen and return a prediction to the caller.
 
-<pre>
+
 ![ML Integration Flow](/laura-schornack/scenarios/set-up/assets/ML-Model-App-Integration.png)
-</pre>
 
 <pre>
 ![ML Integration Flow](laura-schornack/katacoda1/scenarios/set-up/assets/ML-Model-App-Integration.png)

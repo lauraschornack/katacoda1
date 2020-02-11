@@ -1,7 +1,9 @@
 This scenario will take us through the steps we need to set up our tensorflow and python environment to create a basic ML model.
 If you choose to do containers, go with Option 1.
 If you chose to do a setup without containers, skip down to Option 2.  
-You do not need both options.  
+You do not need both options. 
+
+![ML Integration Flow](/laura-schornack/scenarios/set-up/assets/ML-Model-App-Integration.png)
 
 Option 1: Setup with containers:
 
