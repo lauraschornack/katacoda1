@@ -3,8 +3,6 @@ If you choose to do containers, go with Option 1.
 If you chose to do a setup without containers, skip down to Option 2.  
 You do not need both options. 
 
-![ML Integration Flow](/laura-schornack/scenarios/set-up/assets/ML-Model-App-Integration.png)
-
 Option 1: Setup with containers:
 
 For each step, either click on the highlighted text to run it in the terminal, or if you prefer, you can type it.  
