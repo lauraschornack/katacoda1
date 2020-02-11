@@ -1,0 +1,37 @@
+The first phase in ML Development is 
+DATA
+
+Collecting and transforming data usually takes 70% of the time of your project.  
+For the purposes of this class, we will generate our data with a python random number generator.  
+The numbers that we generate will range from 1000 to 3500 and will contain 160 datapoints.  
+
+    num_mq_data = 160
+    np.random.seed(42)
+    mq_data_size = np.random.randint(low=1000, high=3500, size=num_mq_data)
+    np.random.seed(42)
+    mq_data_failure = mq_data_size * 100.0 + np.random.randint(low=20000, high=70000, size=num_mq_data)
+
+    plt.plot(mq_data_size, mq_data_failure, "bx")
+    plt.ylabel("Failure")
+    plt.xlabel("MQ_VAR")
+    plt.show()
+
+    #Normalize values to prevent under/overflow
+    def normalize(array):
+        return (array - array.mean()) / array.std()
+
+    #Take the first 70% of your data as training samples
+    num_train_samples = math.floor(num_mq_data * .7)
+
+    #Define Training Data
+    train_mq_data_size = np.asarray(mq_data_size[:num_train_samples])
+    train_failure = np.asanyarray(mq_data_failure[:num_train_samples:])
+
+    train_mq_data_size_norm = normalize(train_mq_data_size)
+    train_failure_norm = normalize(train_failure)
+
+    #Define Test Data
+    test_mq_data_size = np.asarray(mq_data_size[:num_train_samples])
+    test_mq_data_failure = np.asanyarray(mq_data_failure[:num_train_samples:])
+    test_mq_data_size_norm = normalize(train_mq_data_size)
+    test_failure_norm = normalize(train_failure)
