@@ -5,7 +5,7 @@ The goal of this tutorial is to provide a basic example of how to set up an envi
 At the end of this tutorial, you should be able to call an endpoint to your model from your application, have it take in data, save the data to make the scenario evergreen and return a prediction to the caller.
 
 <pre>
-![ML Integration Flow](/katacoda1/set-up/ML-Model-App-Integration.png)
+![ML Integration Flow](/lauraschornack/katacoda1/set-up/ML-Model-App-Integration.png)
 </pre>
 
 This tutorial has three scenarios.
@@ -19,7 +19,7 @@ Creating a simple ML model
 Scenario 3:
 Serve your ML model in Flask, giving your application an endpoint to call.
 
-In this scenario, we will concentrate on environment setup,
+In the first scenario, we will concentrate on environment setup,
 This scenario will take us through the steps we need to set up our 
 tensorflow and python environment to create a basic ML model.
 If you choose to do containers, go with Option 1.
