@@ -1,4 +1,4 @@
-Welcome to Scenario 1 of the "Serving a Machine Learning Model in a Private Cloud" Tutorial.
+Welcome to Scenario 1 (Environment Set-up) of the "Serving a Machine Learning Model in a Private Cloud" Tutorial.
 
 The goal of this tutorial is to provide a basic example of how to set up an environment, create a model and serve a model in order to integrate it into an application.  
 
