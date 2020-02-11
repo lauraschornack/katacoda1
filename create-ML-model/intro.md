@@ -20,6 +20,4 @@ Serve your ML model in Flask, giving your application an endpoint to call.
 In the second scenario, we will create a basic ML model.
 
 This scenario uses the following approach to development:
-![ML Integration Flow](/laura-schornack/scenarios/set-up/assets/ML-Model-App-Integration.png)
-
-
+![ML Integration Cycle](/laura-schornack/scenarios/create-ML-model/assets/ML-Model-Cycle-Pic.JPG)
