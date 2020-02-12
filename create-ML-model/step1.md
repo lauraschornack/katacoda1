@@ -1,7 +1,8 @@
 The first phase in ML Development is 
 DATA
 
-![ML Integration Flow](/laura-schornack/scenarios/create-ML-model/assets/data.png)
+![ML Integration Flow](/laura-schornack/scenarios/create-ml-model/assets/ML-Model-App-Integration.png)
+![ML Integration Flow](/laura-schornack/scenarios/create-ml-model/assets/data.png)
 
 Collecting and transforming data usually takes 70% of the time of your project.  
 
