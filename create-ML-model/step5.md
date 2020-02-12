@@ -1,5 +1,7 @@
+The next phase of Machine Learning Development is:
 MODEL
 
+    
     # 2. Define the operations for the predicting values
     # be sure to use the tensorflow method for add and multiply,
     #so it happens in the learning env and added to the computation graph
@@ -26,3 +28,4 @@ MODEL
 
     #Initialize the variables
     init = tf.global_variables_initializer()
+
