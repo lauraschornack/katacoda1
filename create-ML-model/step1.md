@@ -2,7 +2,6 @@ The first phase in ML Development is
 DATA
 ![ML Integration Flow](/laura-schornack/scenarios/create-ML-model/DATA.PNG)
 
-
 Collecting and transforming data usually takes 70% of the time of your project.  
 
 For the purposes of this scenario, we will generate our data with a python random number generator.  
