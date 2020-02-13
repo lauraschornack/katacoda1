@@ -1,2 +1,2 @@
 IMPLEMENT
-![ML Integration Flow](/laura-schornack/scenarios/create-ML-model/assets/data.jpg)
+![ML Integration Flow](/laura-schornack/scenarios/create-ML-model/assets/implement.jpg)
