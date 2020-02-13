@@ -7,4 +7,4 @@ Step 2:
 
 The Docker file looks like this:
 We are adding the following components into our container.
-`katacoda1docker`{{open}}.
+`Dockerfile`{{open}}.

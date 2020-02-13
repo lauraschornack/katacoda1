@@ -9,5 +9,5 @@ tensorflow and python environment to create a basic ML model.
 
 This scenario uses the container approach to set up the environment, and explains the differences between container set-up and non-container set-up.  
 
-
+![ML Integration Flow](/laura-schornack/scenarios/set-up/assets/server-set-up.png)
 
