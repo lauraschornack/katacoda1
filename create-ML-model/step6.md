@@ -1,5 +1,9 @@
 
+`hello-model.py`{{open}}
 
+`cat hello-model.py`{{execute}}
+
+`python3 hello-model.py`{{execute}}
 
     # 2. Define the operations for the predicting values
     # be sure to use the tensorflow method for add and multiply,
