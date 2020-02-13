@@ -1,3 +1,6 @@
+Now, we should be able to run python and tensorflow at the prompt.
+
+
 Render port 8500: https://[[HOST_SUBDOMAIN]]-8500-[[KATACODA_HOST]].environments.katacoda.com/
 
 Render port 80: https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/

@@ -1,3 +1,5 @@
+The set-up for this type of environment would have looked like this:
+
 Setup without containers
 
 Step 1:
