@@ -1,3 +1,12 @@
+
+
+![ML Integration Flow](/laura-schornack/scenarios/set-up/assets/container-set-up.png)
+
+Step 1:
+Pull down docker file from my git hub
+`git clone https://github.com/lauraschornack/katacoda1.git`{{execute}}
+
+
 Step 2:
 `cd katacoda1/set-up`{{execute}}
 

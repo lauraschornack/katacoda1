@@ -1,3 +1,10 @@
+In the old days, we used VMs,
+and our set up would have looked like this:
+
+![ML Integration Flow](/laura-schornack/scenarios/set-up/assets/traditional-set-up.png)
+
+![ML Integration Flow](/laura-schornack/scenarios/set-up/assets/container-set-up.png)
+
 This scenario will take us through the steps we need to set up our tensorflow and python environment to create a basic ML model.
 If you choose to do containers, go with Option 1.
 If you chose to do a setup without containers, skip down to Option 2.  
