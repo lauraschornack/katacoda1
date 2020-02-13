@@ -1,7 +1,7 @@
 The next phase of Machine Learning Development is:
 MODEL
 
-![ML Integration Flow](/laura-schornack/scenarios/create-ML-model/assets/model.png)
+![ML Integration Flow](/laura-schornack/scenarios/set-up/assets/model.png)
 
     
     # 2. Define the operations for the predicting values
