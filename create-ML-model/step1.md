@@ -20,6 +20,13 @@ Quick Setup:
 docker run -p 8500:8500 -it --rm katacoda1docker
 `docker run katacoda1docker`{{execute}}
 
+`python3 hello-data.py`{{open}}
+
+`python3 hello-data.py`{{execute}}
+
+
+--------------
+
 `import tensorflow as tf`{{execute}}
 `import numpy as np`{{execute}}
 `import math`{{execute}}
