@@ -13,11 +13,12 @@ Before we get started, run these "quick setup" steps.  For the details on these 
 Quick Setup:
 `git clone https://github.com/lauraschornack/katacoda1.git`{{execute}}
 
-`cd katacoda1/create-ML-Model`{{execute}}
+`cd katacoda1/create-ML-model`{{execute}}
 
 `docker build . -t katacoda1docker`{{execute}}
 
-`docker run -p 8500:8500 -it --rm katacoda1docker`{{execute}}
+docker run -p 8500:8500 -it --rm katacoda1docker
+`docker run katacoda1docker`{{execute}}
 
 `import tensorflow as tf`{{execute}}
 `import numpy as np`{{execute}}

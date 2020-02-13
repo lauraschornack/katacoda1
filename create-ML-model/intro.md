@@ -8,10 +8,12 @@ Environment Set-up.  When you are done with this scenario, please continue to Sc
 At the end of this three scenario tutorial, you should be able to call an endpoint to your model from your application, have it take in data and save the data to make the scenario evergreen and return a prediction to the caller. 
 The goal of this tutorial is to provide a basic example of how to set up an environment, create a model and serve a model in order to integrate it into an application.  
 
-This scenario uses the following approach to development:
+This scenario uses an iterative approach to development.
+In the next 10 steps, we will go through each of the steps of this cycle. 
+
 ![ML Integration Cycle](/laura-schornack/scenarios/set-up/assets/ML-Model-Cycle-Pic.png)
 
-In the next 10 steps, we will go through each of the steps of this cycle.  
+ 
 
 
 
