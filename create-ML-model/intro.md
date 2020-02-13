@@ -9,7 +9,7 @@ At the end of this three scenario tutorial, you should be able to call an endpoi
 The goal of this tutorial is to provide a basic example of how to set up an environment, create a model and serve a model in order to integrate it into an application.  
 
 This scenario uses the following approach to development:
-![ML Integration Cycle](/laura-schornack/scenarios/create-ML-model/assets/ML-Model-Cycle-Pic.png)
+![ML Integration Cycle](/laura-schornack/scenarios/set-up/assets/ML-Model-Cycle-Pic.png)
 
 In the next 10 steps, we will go through each of the steps of this cycle.  
 
