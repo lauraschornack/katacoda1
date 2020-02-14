@@ -17,6 +17,8 @@ Quick Setup:
 
 `hello-data.py`{{open}}
 
+`cd ..`{{execute}}
+
 `python3 hello-data.py`{{execute}}
 
 
