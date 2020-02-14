@@ -11,9 +11,11 @@ import matplotlib.animation as animation
 from flask import Flask
 app = Flask(__name__)
 
+xy = 'output message'
+
 @app.route('/')
 def hello_world():
-    return 'Hey, we have Flask in a Docker container!'
+    return xy
 
 if __name__ == '__main__':
 
@@ -141,5 +143,6 @@ if __name__ == '__main__':
         plt.show()
 
         print("real run")
+        xy = 'yes it worked'
 
         app.run(debug=True, host='0.0.0.0',port=8500)
