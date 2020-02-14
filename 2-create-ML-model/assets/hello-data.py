@@ -34,6 +34,8 @@ mq_data_failure = mq_data_size * 100.0 + np.random.randint(low=20000, high=70000
 #plt.xlabel("MQ_VAR")
 #plt.show()
 
+print(mq_data_size)
+
 #
 
 #Normalize values to prevent under/overflow
