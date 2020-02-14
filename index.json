@@ -51,11 +51,6 @@
     },
     "finish": {
       "text": "finish.md"
-    },
-    "assets":{
-      "host01": [{"file": "Dockerfile", "target": "/root"},
-        {"file": "hello.py", "target": "/root"}
-        ]
     }
   },
   "environment": {
