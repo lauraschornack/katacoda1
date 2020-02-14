@@ -6,7 +6,7 @@ Understand the data
 What does the data look like
 Investigate different models
 
-![ML Integration Flow](/laura-schornack/scenarios/set-up/assets/learn.png)
+![ML Integration Flow](learn.png)
 
 `hello-model.py`{{open}}
 
