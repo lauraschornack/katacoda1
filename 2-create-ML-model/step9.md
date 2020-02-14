@@ -1,5 +1,6 @@
 The last step in this cycle is 
 INTERFACE
-How do we feed this data to predict
 
-![ML Integration Flow](/laura-schornack/scenarios/set-up/assets/interface.png)
+How do we make this available as an endpoint for calling workflow applications?  
+
+![ML Integration Flow](interface.png)
