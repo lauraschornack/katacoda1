@@ -15,9 +15,9 @@ Quick Setup:
 
 `docker run -it --rm katacoda1docker /bin/bash`{{execute}}
 
-`hello-data.py`{{open}}
-
 `cd ..`{{execute}}
+
+`hello-data.py`{{open}}
 
 `python3 hello-data.py`{{execute}}
 

@@ -8,3 +8,6 @@ Investigate different models
 
 ![ML Integration Flow](/laura-schornack/scenarios/set-up/assets/learn.png)
 
+`hello-model.py`{{open}}
+
+`python3 hello-model.py`{{execute}}
