@@ -53,15 +53,14 @@
       "text": "finish.md"
     },
     "assets":{
-      "host01": [{
-        "file": "Dockerfile", "target": "/root",
-        "file": "hello-data.py", "target": "/root",
-        "file": "hello-implement.py", "target": "/root",
-        "file": "hello-interface.py", "target": "/root",
-        "file": "hello-learn.py", "target": "/root",
-        "file": "hello-model.py", "target": "/root",
-        "file": "hello.py", "target": "/root"
-        }]
+      "host01": [{"file": "Dockerfile", "target": "/root"},
+        {"file": "hello-data.py", "target": "/root"},
+        {"file": "hello-implement.py", "target": "/root"},
+        {"file": "hello-interface.py", "target": "/root"},
+        {"file": "hello-learn.py", "target": "/root"},
+        {"file": "hello-model.py", "target": "/root"},
+        {"file": "hello.py", "target": "/root"}
+        ]
     }
   },
   "environment": {
