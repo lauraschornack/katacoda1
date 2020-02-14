@@ -140,6 +140,6 @@ if __name__ == '__main__':
         plt.legend(loc='upper left')
         plt.show()
 
-        print "real run"
+        print("real run")
 
         app.run(debug=True, host='0.0.0.0',port=8500)
