@@ -16,7 +16,6 @@ def hello_world():
     return 'Hey, we have Flask in a Docker container!'
 
 if __name__ == '__main__':
-    app.run(port=8500)
 
     sess = tf.Session()
     hello = tf.constant("Hello Laura from TensorFlow")
@@ -141,4 +140,6 @@ if __name__ == '__main__':
         plt.legend(loc='upper left')
         plt.show()
 
-        app.run(debug=True, host='0.0.0.0')
+        print "real run"
+
+        app.run(debug=True, host='0.0.0.0',port=8500)
