@@ -111,7 +111,7 @@ if __name__ == '__main__':
                 c = sess.run(tf_fail_prob, feed_dict={tf_mq_data_size: train_mq_data_size_norm, tf_failure:train_failure_norm})
                 #print("iteration #:", '%04d' % (iteration + 1), "fail_prob=", "{:.9f}".format(c), \
                 #    "MQ_VAR=", sess.run(tf_size_factor), "failure_offset", sess.run(tf_failure_offset))
-                xy = xy + "iteration #: " + (iteration + 1) + " fail_prob=" + c + " MQ_VAR=" + sess.run(tf_size_factor) + " failure_offset " + sess.run(tf_failure_offset) + "</br>"
+                xy = xy + "iteration #: " + str((iteration + 1)) + " fail_prob=" + str(c) + " MQ_VAR=" + str(sess.run(tf_size_factor)) + " failure_offset " + str(sess.run(tf_failure_offset)) + "</br>"
         print("Optimization finished!")
         training_fail_prob = sess.run(tf_fail_prob, feed_dict={tf_mq_data_size: train_mq_data_size_norm, tf_failure: train_failure_norm})
         print("trained fail_prob=", training_fail_prob,
