@@ -9,7 +9,3 @@ Test your tensorflow install by running the following import commands.
 `import numpy as np`{{execute}}
 
 `import math`{{execute}}
-
-`import matplotlib.pyplot as plt`{{execute}}
-
-`import matplotlib.animation as animation`{{execute}}
