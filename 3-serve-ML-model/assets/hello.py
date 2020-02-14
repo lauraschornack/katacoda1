@@ -109,8 +109,9 @@ if __name__ == '__main__':
             #peridocially display the fail_prob, which is the error
             if (iteration + 1) % display_every == 0:
                 c = sess.run(tf_fail_prob, feed_dict={tf_mq_data_size: train_mq_data_size_norm, tf_failure:train_failure_norm})
-                print("iteration #:", '%04d' % (iteration + 1), "fail_prob=", "{:.9f}".format(c), \
-                    "MQ_VAR=", sess.run(tf_size_factor), "failure_offset", sess.run(tf_failure_offset))
+                #print("iteration #:", '%04d' % (iteration + 1), "fail_prob=", "{:.9f}".format(c), \
+                #    "MQ_VAR=", sess.run(tf_size_factor), "failure_offset", sess.run(tf_failure_offset))
+                xy = xy + "iteration #: " + (iteration + 1) + " fail_prob=" + c + " MQ_VAR=" + sess.run(tf_size_factor) + " failure_offset " + sess.run(tf_failure_offset) + "</br>"
         print("Optimization finished!")
         training_fail_prob = sess.run(tf_fail_prob, feed_dict={tf_mq_data_size: train_mq_data_size_norm, tf_failure: train_failure_norm})
         print("trained fail_prob=", training_fail_prob,
@@ -143,6 +144,6 @@ if __name__ == '__main__':
         plt.show()
 
         print("real run")
-        xy = 'yes it worked'
+        #xy = 'yes it worked'
 
         app.run(debug=True, host='0.0.0.0',port=8500)
