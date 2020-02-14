@@ -52,6 +52,13 @@
       "host01": [{"file": "Dockerfile", "target": "/root"}]
     }
   },
+  "assets":{
+    "host01": [{"file": "Dockerfile", "target": "/root"},
+      {"file": "server-set-up.png", "target": "/root"},
+      {"file": "container-set-up.png", "target": "/root"},
+      {"file": "traditional-set-up.png", "target": "/root"}
+      ]
+},
   "environment": {
     "uilayout": "editor-terminal"
   },
