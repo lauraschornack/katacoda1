@@ -56,7 +56,8 @@
     "host01": [{"file": "Dockerfile", "target": "/root"},
       {"file": "server-set-up.png", "target": "/root"},
       {"file": "container-set-up.png", "target": "/root"},
-      {"file": "traditional-set-up.png", "target": "/root"}
+      {"file": "traditional-set-up.png", "target": "/root"},
+      {"file": "ML-Model-App-Integration.png", "target": "/root"}     
       ]
 },
   "environment": {
