@@ -13,9 +13,9 @@ Before we get started, run these "quick setup" steps.  For the details on these 
 Quick Setup:
 `docker build . -t katacoda1docker`{{execute}}
 
-`docker run -it --rm katacoda1docker`{{execute}}
+`docker run -it --rm katacoda1docker /bin/bash`{{execute}}
 
-`python3 hello-data.py`{{open}}
+`hello-data.py`{{open}}
 
 `python3 hello-data.py`{{execute}}
 
