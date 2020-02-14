@@ -1,4 +1,4 @@
-Step 6:
+
 
 `sess = tf.Session()`{{execute}}
 

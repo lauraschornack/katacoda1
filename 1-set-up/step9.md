@@ -1,4 +1,4 @@
-Step 6:
+
 Open a python shell with python3
 `python3`{{execute}}
 
