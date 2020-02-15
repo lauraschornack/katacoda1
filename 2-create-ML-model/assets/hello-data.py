@@ -4,9 +4,6 @@ import math
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-
-
-
 import matplotlib.animation as animation
 #from flask import Flask
 #app = Flask(__name__)
