@@ -70,7 +70,7 @@
       {"file": "implement.png", "target": "/root"},
       {"file": "interface.png", "target": "/root"}
       ]
-  },
+},
   "environment": {
     "uilayout": "editor-terminal"
   },
