@@ -2,25 +2,18 @@ The set-up for this type of environment would have looked like this:
 
 Setup without containers
 
-Step 1:
-Install python.
-`sudo add-apt-repository ppa:myhome/python3.6`
-
-Step 2:
+Step:
 `sudo apt-get update`{{execute}}
 
-Step 3:
-`sudo apt-get install python3`{{execute}}
-
-Step 4:
+Step:
 Install tensorflow.
 `pip install tensorflow==1.2.0 --ignore-installed`{{execute}}
 
-Step 5:
-Install tensorflow.
+Step:
+Install matplotlib.
 `pip install matplotlib`{{execute}}
 
-Step 6:
+Step:
 Open a python shell with python3
 `python3`{{execute}}
 

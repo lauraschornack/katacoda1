@@ -2,7 +2,8 @@ The first step to setting up a container environment is to create a Docker file,
 
 The first step is to pull an existing docker file off of the git-hub for this course.  
 
-Step 1:
+Type: Control C to exit from the python prompt.
+
 Pull down docker file from my git hub
 `git clone https://github.com/lauraschornack/katacoda1.git`{{execute}}
 
