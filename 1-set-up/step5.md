@@ -1,10 +1,7 @@
-Containers in general, and what is under what has already been installed in the docker file
+Containers are simpler to work with, and they reuse depedecies. 
+To create a continer, you first need to create a file called "Dockerfile".
 
-Run the following commands to look inside the docker file. 
+To see what components we are adding to our container,
+click on the link to our  Dockerfile below, to open it.
 
-Step 2:
-`cd katacoda1/set-up`{{execute}}
-
-The Docker file looks like this:
-We are adding the following components into our container.
 `Dockerfile`{{open}}.

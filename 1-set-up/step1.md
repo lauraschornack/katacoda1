@@ -1,7 +1,7 @@
-In the old days, we used VMs.
+Before containers, software was installed on Virtual Machines (VMs).
 
-Every piece of software woul dhave to be installed seperately.  
+Every piece of software and all of its dependencies would have to be installed seperately.  
 
-The set-up would have looked like this:
+Notice in the image below that each piece of software is an individual silo. 
 
 ![ML Integration Flow](traditional-set-up.png)

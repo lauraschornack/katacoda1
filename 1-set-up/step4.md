@@ -4,6 +4,7 @@ The first step is to pull an existing docker file off of the git-hub for this co
 
 Type: Control C to exit from the python prompt.
 
+To download this code outside of this Katacoda environment, use the following command:
 Pull down docker file from my git hub
 `git clone https://github.com/lauraschornack/katacoda1.git`{{execute}}
 
