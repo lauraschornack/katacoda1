@@ -55,7 +55,8 @@
     "assets":{
       "host01": [{"file": "Dockerfile", "target": "/root"},
                  {"file": "hello-data.py", "target": "/root"},
-                 {"file": "hello-implement.py", "target": "/root"}]
+                 {"file": "hello-implement.py", "target": "/root"},
+                 {"file": "hello-learn.py", "target": "/root"}]
     }
   },
   "assets":{
