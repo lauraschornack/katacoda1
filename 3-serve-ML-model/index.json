@@ -55,6 +55,8 @@
     "assets":{
       "host01": [{"file": "Dockerfile", "target": "/root"},
         {"file": "hello.py", "target": "/root"},
+        {"file": "hello-pre-flask.py", "target": "/root"},
+        {"file": "hello-post-flask.py", "target": "/root"},
         {"file": "ML-Model-App-Integraiton.png", "target": "/root"}]
     }
   },
