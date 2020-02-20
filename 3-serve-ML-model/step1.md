@@ -1,16 +1,16 @@
 `cd ..`{{execute}}
 
-Open the code before flask has been added
-
-The Docker file looks like this:
-We are adding the following components into our container.
-`hello-pre-flask.py`{{open}}.
-
+O
 
 --------------------
 
 The Docker file looks like this:
+We are addipen the code before flask has been added
+
+The Docker file looks like this:
 We are adding the following components into our container.
+`hello-pre-flask.py`{{open}}.
+ng the following components into our container.
 `katacoda1docker`{{open}}.
 
 Step 3:
