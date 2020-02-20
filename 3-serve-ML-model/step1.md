@@ -1,9 +1,13 @@
-Step 1:
-Pull down docker file from my git hub
-`git clone https://github.com/lauraschornack/katacoda1.git`{{execute}}
+`cd ..`{{execute}}
 
-Step 2:
-`cd katacoda1/set-up`{{execute}}
+Open the code before flask has been added
+
+The Docker file looks like this:
+We are adding the following components into our container.
+`hello-pre-flask.py`{{open}}.
+
+
+--------------------
 
 The Docker file looks like this:
 We are adding the following components into our container.
