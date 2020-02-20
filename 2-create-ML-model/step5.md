@@ -6,7 +6,7 @@ Understand the data
 What does the data look like
 Investigate different models
 
-![ML Integration Flow](learn.png)
+![ML Integration Flow](model.png)
 
 `hello-model.py`{{open}}
 
