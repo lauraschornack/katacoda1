@@ -8,6 +8,9 @@ Investigate different models
 
 ![ML Integration Flow](learn.png)
 
-`hello-model.py`{{open}}
 
-`python3 hello-model.py`{{execute}}
+
+`hello-learn.py`{{open}}
+
+`python3 hello-learn.py`{{execute}}
+

@@ -1,5 +1,5 @@
 
-Now that we can run a simple ML model on a docker container, the next scenario will walk us through how to serve that model on an endpoint.  
+Now that we can run a simple docker container, the next scenario will walk us through how to create a simple model. 
 
 
 ------------(remove below)

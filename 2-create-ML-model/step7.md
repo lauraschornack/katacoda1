@@ -12,3 +12,4 @@ Supply Algorithy with a data feed to predict the future.
 `hello-implement.py`{{open}}
 
 `python3 hello-implement.py`{{execute}}
+
