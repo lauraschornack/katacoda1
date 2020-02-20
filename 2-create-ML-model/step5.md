@@ -12,5 +12,3 @@ Investigate different models
 
 `python3 hello-model.py`{{execute}}
 
-    
- 
