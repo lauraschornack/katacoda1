@@ -1,11 +1,9 @@
 The forth phase in ML Development is 
 IMPLEMENT
 
-Supply Algorithy with a data feed to predict the future.
+The implement part of the Machine Learning cycle involves these activities:
 
-![ML Integration Flow](/laura-schornack/scenarios/set-up/assets/implement.png)
-
-
+* Supply Algorithy with a data feed to predict the future, or run the model with existing data
 
 ![ML Integration Flow](implement.png)
 
