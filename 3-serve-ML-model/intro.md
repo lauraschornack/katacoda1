@@ -4,5 +4,4 @@ The goal of this tutorial is to provide a basic example of how to set up an envi
 
 At the end of this scenario, you should be able to call an endpoint to your model from your application, have it take in data and save the data to make the scenario evergreen and return a prediction to the caller. 
 
-![ML Integration Flow](/laura-schornack/scenarios/set-up/assets/ML-Model-App-Integration.png)
 
