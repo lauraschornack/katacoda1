@@ -1,6 +1,6 @@
 `cd ..`{{execute}}
 
-O
+`Dockerfile`{{open}}.
 
 --------------------
 
