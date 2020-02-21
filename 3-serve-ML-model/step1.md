@@ -1,9 +1,14 @@
 Before we get started, run these "quick setup" steps.  For the details on these steps,go back to "Scenario 1: Environment Setup" of this tutorial, where we went over building a simple docker image in detail.    
 
-Quick Setup:
-`docker build . -t katacoda1docker`{{execute}}
+We cannot have two different dockerfiles in our environment, so we will do a "pre-container" setup.
 
-`docker run -it --rm katacoda1docker /bin/bash`{{execute}}
+Step:
+`sudo apt-get update`{{execute}}
+
+Step:
+Install tensorflow.
+`pip install tensorflow==1.2.0 --ignore-installed`{{execute}}
+
 
 
 
