@@ -1,13 +1,13 @@
 import tensorflow as tf
 import numpy as np
 import math
-import matplotlib
-matplotlib.use('Agg')
-import matplotlib.pyplot as plt
+#import matplotlib
+#matplotlib.use('Agg')
+#import matplotlib.pyplot as plt
 
 
 
-import matplotlib.animation as animation
+#import matplotlib.animation as animation
 from flask import Flask
 app = Flask(__name__)
 
@@ -30,10 +30,10 @@ if __name__ == '__main__':
     mq_data_size = np.random.randint(low=1000, high=3500, size=num_mq_data)
     np.random.seed(42)
     mq_data_failure = mq_data_size * 100.0 + np.random.randint(low=20000, high=70000, size=num_mq_data)
-    plt.plot(mq_data_size, mq_data_failure, "bx")
-    plt.ylabel("Failure")
-    plt.xlabel("MQ_VAR")
-    plt.show()
+ #   plt.plot(mq_data_size, mq_data_failure, "bx")
+ #   plt.ylabel("Failure")
+ #   plt.xlabel("MQ_VAR")
+ #   plt.show()
 
     #
 
@@ -130,18 +130,18 @@ if __name__ == '__main__':
         train_failure_std = train_failure.std()
 
         #plot the graph
-        plt.rcParams["figure.figsize"] = (10,8)
-        plt.figure()
-        plt.ylabel("Failure")
-        plt.xlabel("MQ_VAR")
-        plt.plot(train_mq_data_size, train_failure, 'go', label='Training data')
-        plt.plot(test_mq_data_size, test_mq_data_failure, 'mo', label='Testing data')
-        plt.plot(train_mq_data_size_norm * train_mq_data_size_std + train_mq_data_size_mean,
-        (sess.run(tf_size_factor) * train_mq_data_size_norm + sess.run(tf_failure_offset)) * train_failure_std + train_failure_mean,
-        label='Learned Regression')
+        #plt.rcParams["figure.figsize"] = (10,8)
+        #plt.figure()
+        #plt.ylabel("Failure")
+        #plt.xlabel("MQ_VAR")
+        #plt.plot(train_mq_data_size, train_failure, 'go', label='Training data')
+        #plt.plot(test_mq_data_size, test_mq_data_failure, 'mo', label='Testing data')
+        #plt.plot(train_mq_data_size_norm * train_mq_data_size_std + train_mq_data_size_mean,
+        #(sess.run(tf_size_factor) * train_mq_data_size_norm + sess.run(tf_failure_offset)) * train_failure_std + train_failure_mean,
+        #label='Learned Regression')
 
-        plt.legend(loc='upper left')
-        plt.show()
+        #plt.legend(loc='upper left')
+        #plt.show()
 
         print("real run")
         #xy = 'yes it worked'

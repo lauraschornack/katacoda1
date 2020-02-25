@@ -1,6 +1,18 @@
 Before we get started, run these "quick setup" steps.  For the details on these steps,go back to "Scenario 1: Environment Setup" of this tutorial, where we went over building a simple docker image in detail.    
 
-We cannot have two different dockerfiles in our environment, so we will do a "pre-container" setup.
+We will start by using our Dockerfile from the Scenario 1.
+(Note - this docker file will be changed later)
+
+Step:
+`cd ..`{{execute}}
+
+Step
+`Dockerfile`{{open}}
+
+Step:
+comment out the last two lines
+
+
 
 Step:
 `sudo apt-get update`{{execute}}
@@ -12,8 +24,6 @@ Install tensorflow.
 
 
 
-
------------------------------
 
 
 The Docker file looks like this:
