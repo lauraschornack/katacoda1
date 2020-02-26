@@ -6,9 +6,11 @@ The first scenario walked through the setup.
 The second scenario walked us through the first 5 steps of the ML Development Cycle.
 This scenario will walk through the last step of the ML Development Cycle: Interface.
 
-![ML Integration Cycle](ml-cycle-2.jpg)  ![ML Integration Cycle](interface2.jpg)
-
 At the end of this scenario, you should be able to use the interface that we created for our Machine Learning Model.  You will do this by calling an endpoint to your model from your application and return the output to the caller. 
+
+![ML Integration Cycle](ml-cycle-2.jpg)  
+
+
 
  
 
