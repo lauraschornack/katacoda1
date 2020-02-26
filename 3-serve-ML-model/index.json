@@ -62,8 +62,8 @@
   "assets":{
     "host01": [{"file": "Dockerfile", "target": "/root"},
       {"file": "hello.py", "target": "/root"},
-      {"file": "ml-cycle.jpg", "target": "/root"},
-      {"file": "interface.jpg", "target": "/root"}]
+      {"file": "ml-cycle.png", "target": "/root"},
+      {"file": "interface.png", "target": "/root"}]
 },
   "environment": {
     "uilayout": "editor-terminal"
