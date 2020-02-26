@@ -63,7 +63,7 @@
     "host01": [{"file": "Dockerfile", "target": "/root"},
       {"file": "hello.py", "target": "/root"},
       {"file": "ml-cycle-2.jpg", "target": "/root"},
-      {"file": "interface.png", "target": "/root"}]
+      {"file": "interface2.jpg", "target": "/root"}]
 },
   "environment": {
     "uilayout": "editor-terminal"
