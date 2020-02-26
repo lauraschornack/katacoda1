@@ -69,6 +69,7 @@
       {"file": "hello-learn.py", "target": "/root"},
       {"file": "hello-model.py", "target": "/root"},
       {"file": "ML-Model-Cycle-Pic.png", "target": "/root"},
+      {"file": "ml-cycle.png", "target": "/root"},      
       {"file": "data.png", "target": "/root"},
       {"file": "model.png", "target": "/root"},
       {"file": "learn.png", "target": "/root"},
