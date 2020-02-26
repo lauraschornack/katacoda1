@@ -3,17 +3,11 @@ Before we get started, run these "quick setup" steps.  For the details on these 
 We will start by using our Dockerfile from the Scenario 1.
 (Note - this docker file will be changed later)
 
-Step:
-`cd ..`{{execute}}
-
 Step
 `Dockerfile`{{open}}
 
-ng the following components into our container.
-`katacoda1docker`{{open}}.
-
 Step:
-Build the docker file. 
+Build the docker file to put the following components into our container.
 `docker build . -t katacoda1docker`{{execute}}
 
 Step:
