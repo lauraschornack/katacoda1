@@ -1,7 +1,5 @@
 Welcome to Scenario 2 (Creating a simple ML Model) of the "Serving a Machine Learning Model in a Private Cloud" Tutorial.
 
-test
-
 In this scenario, we will be creating a simple ML model.
 
 This scenario assumes that you have completed Scenario 1:
