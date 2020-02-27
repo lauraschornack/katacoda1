@@ -11,7 +11,7 @@ The goal of this tutorial is to provide a basic example of how to set up an envi
 This scenario uses an iterative approach to development.
 In the next 10 steps, we will go through each of the steps of this cycle. 
 
-![ML Integration Cycle](ml-cycle.png)
+![ML Integration Cycle](ml-cycle-2.png)
 
  
 
