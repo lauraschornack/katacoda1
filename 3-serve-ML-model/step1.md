@@ -1,7 +1,6 @@
 Before we get started, run these "quick setup" steps.  For the details on these steps,go back to "Scenario 1: Environment Setup" of this tutorial, where we went over building a simple docker image in detail.    
 
-We will start by using our Dockerfile from the Scenario 1.
-(Note - this docker file will be changed later)
+We will start by building our environment, using our Dockerfile from the Scenario 1.
 
 Step
 `Dockerfile`{{open}}
