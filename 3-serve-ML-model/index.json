@@ -56,12 +56,14 @@
       "host01": [{"file": "Dockerfile", "target": "/root"},
         {"file": "hello.py", "target": "/root"},
         {"file": "hello-pre-flask.py", "target": "/root"},
+        {"file": "hello-implement.py", "target": "/root"},
         {"file": "hello-post-flask.py", "target": "/root"}]
     }
   },
   "assets":{
     "host01": [{"file": "Dockerfile", "target": "/root"},
       {"file": "hello.py", "target": "/root"},
+      {"file": "hello-implement.py", "target": "/root"},
       {"file": "ml-cycle-2.jpg", "target": "/root"},
       {"file": "interface2.jpg", "target": "/root"}]
 },
