@@ -2,7 +2,7 @@ Welcome to Scenario 1 (Environment Set-up) of the "Serving a Machine Learning Mo
 
 The goal of this trillogy of scenarios is to set up an environment, create an ML model and serve that model.
 
-The goal of this first scenario is to explalin basic environment setup.
+The goal of this first scenario is to explain basic environment setup.
 
 This scenario will take us through the steps we need to set up our 
 tensorflow and python environment to create a basic ML model.

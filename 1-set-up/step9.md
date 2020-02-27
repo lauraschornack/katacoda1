@@ -1,16 +1,4 @@
 
-Open a python shell with python3
-`python3`{{execute}}
-
-Test your environment:
-Test your tensorflow install by running the following import commands.
-`import tensorflow as tf`{{execute}}
-
-`import numpy as np`{{execute}}
-
-`import math`{{execute}}
-
----------------------- (remove above)
 
 `sess = tf.Session()`{{execute}}
 

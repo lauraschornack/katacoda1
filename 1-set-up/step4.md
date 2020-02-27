@@ -2,7 +2,7 @@ The first step to setting up a container environment is to create a Docker file,
 
 The first step is to pull an existing docker file off of the git-hub for this course.  
 
-Type: Control C to exit from the python prompt.
+Type: Control D to exit from the python prompt.
 
 To download this code outside of this Katacoda environment, use the following command:
 Pull down docker file from my git hub
