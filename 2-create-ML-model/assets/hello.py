@@ -108,12 +108,12 @@ with tf.Session() as sess:
         #peridocially display the fail_prob, which is the error
         if (iteration + 1) % display_every == 0:
             c = sess.run(tf_fail_prob, feed_dict={tf_mq_data_size: train_mq_data_size_norm, tf_failure:train_failure_norm})
-            print("iteration #:", '%04d' % (iteration + 1), "fail_prob=", "{:.9f}".format(c), \
-                "MQ_VAR=", sess.run(tf_size_factor), "failure_offset", sess.run(tf_failure_offset))
+            print("iteration #:", '%04d' % (iteration + 1), "price=", "{:.9f}".format(c), \
+                "location=", sess.run(tf_size_factor), "failure_offset", sess.run(tf_failure_offset))
     print("Optimization finished!")
     training_fail_prob = sess.run(tf_fail_prob, feed_dict={tf_mq_data_size: train_mq_data_size_norm, tf_failure: train_failure_norm})
-    print("trained fail_prob=", training_fail_prob,
-    "MQ_VAR=", sess.run(tf_size_factor),
+    print("trained price=", training_fail_prob,
+    "location=", sess.run(tf_size_factor),
     "failure_offset=", sess.run(tf_failure_offset), '\n')
 
 #
