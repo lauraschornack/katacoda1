@@ -2,7 +2,8 @@ Before we get started, run these "quick setup" steps.  For the details on these 
 
 We will start by building our environment, using our Dockerfile from the Scenario 1.
 
-Step
+Step:
+Click on the link below to open the Dockerfile.  
 `Dockerfile`{{open}}
 
 Step:

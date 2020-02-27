@@ -6,6 +6,7 @@ Step:
 `cd ..`{{execute}}
 
 Step:
+Run the current implementation of the model that sends the output to the command line. 
 `python3 hello-implement.py`{{execute}}
 
 The output that is sent to the command line is what

@@ -5,17 +5,18 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
+
+
 import matplotlib.animation as animation
 from flask import Flask
 app = Flask(__name__)
 
-xy = 'output message'
-
 @app.route('/')
 def hello_world():
-    return xy
+    return 'Hey, we have Flask in a Docker container!'
 
 if __name__ == '__main__':
+    app.run(port=8500)
 
     sess = tf.Session()
     hello = tf.constant("Hello Laura from TensorFlow")
@@ -107,9 +108,8 @@ if __name__ == '__main__':
             #peridocially display the fail_prob, which is the error
             if (iteration + 1) % display_every == 0:
                 c = sess.run(tf_fail_prob, feed_dict={tf_mq_data_size: train_mq_data_size_norm, tf_failure:train_failure_norm})
-                #print("iteration #:", '%04d' % (iteration + 1), "fail_prob=", "{:.9f}".format(c), \
-                #    "MQ_VAR=", sess.run(tf_size_factor), "failure_offset", sess.run(tf_failure_offset))
-                xy = xy + "iteration #: " + str((iteration + 1)) + " fail_prob=" + str(c) + " MQ_VAR=" + str(sess.run(tf_size_factor)) + " failure_offset " + str(sess.run(tf_failure_offset)) + "</br>"
+                print("iteration #:", '%04d' % (iteration + 1), "fail_prob=", "{:.9f}".format(c), \
+                    "MQ_VAR=", sess.run(tf_size_factor), "failure_offset", sess.run(tf_failure_offset))
         print("Optimization finished!")
         training_fail_prob = sess.run(tf_fail_prob, feed_dict={tf_mq_data_size: train_mq_data_size_norm, tf_failure: train_failure_norm})
         print("trained fail_prob=", training_fail_prob,
@@ -141,7 +141,4 @@ if __name__ == '__main__':
         plt.legend(loc='upper left')
         plt.show()
 
-        print("real run")
-        #xy = 'yes it worked'
-
-        app.run(debug=True, host='0.0.0.0',port=8500)
+        app.run(debug=True, host='0.0.0.0')
