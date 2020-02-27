@@ -8,16 +8,16 @@ import math
 
 
 #import matplotlib.animation as animation
-from flask import Flask
-app = Flask(__name__)
+#from flask import Flask
+#app = Flask(__name__)
 
 xy = 'output message'
 
-@app.route('/')
-def hello_world():
-    return xy
+#@app.route('/')
+#def hello_world():
+#    return xy
 
-if __name__ == '__main__':
+#if __name__ == '__main__':
 
     sess = tf.Session()
     hello = tf.constant("Hello Laura from TensorFlow")
@@ -146,4 +146,4 @@ if __name__ == '__main__':
         print("real run")
         #xy = 'yes it worked'
 
-        app.run(debug=True, host='0.0.0.0',port=8500)
+        #app.run(debug=True, host='0.0.0.0',port=8500)
