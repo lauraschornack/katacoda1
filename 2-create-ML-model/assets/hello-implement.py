@@ -132,4 +132,15 @@ with tf.Session() as sess:
     train_failure_mean = train_failure.mean()
     train_failure_std = train_failure.std()
 
+##
+    print("x=")
+    print(train_mq_data_size_norm * train_mq_data_size_std + train_mq_data_size_mean)
+    print("y=")
+    print(sess.run(tf_size_factor) * train_mq_data_size_norm + sess.run(tf_failure_offset)) * train_failure_std + train_failure_mean)
+    #print("x/y=")
+    #print((train_mq_data_size_norm * train_mq_data_size_std + train_mq_data_size_mean)/(sess.run(tf_size_factor) * train_mq_data_size_norm + sess.run(tf_failure_offset)) * train_failure_std + train_failure_mean))
+    #print("if y = mx + b")
+
+
+
 # - End of Implement
