@@ -120,6 +120,11 @@ with tf.Session() as sess:
     print("trained fail_prob=", training_fail_prob,
     "MQ_VAR=", sess.run(tf_size_factor),
     "failure_offset=", sess.run(tf_failure_offset), '\n')
+    print("x=")
+    print(train_mq_data_size_norm * train_mq_data_size_std + train_mq_data_size_mean)
+    print("y=")
+    print((sess.run(tf_size_factor) * train_mq_data_size_norm + sess.run(tf_failure_offset)) * train_failure_std + train_failure_mean)
+   
 
 # - End of Model
 
@@ -133,9 +138,13 @@ with tf.Session() as sess:
     train_failure_std = train_failure.std()
 
 ##
-    print("x=")
-    print(train_mq_data_size_norm * train_mq_data_size_std + train_mq_data_size_mean)
-    print("y=")
+    #    #plt.plot(test_mq_data_size, test_mq_data_failure, 'mo', label='Testing data')
+    #plt.plot(train_mq_data_size_norm * train_mq_data_size_std + train_mq_data_size_mean,
+
+    #print("x=")
+    #print(train_mq_data_size_norm * train_mq_data_size_std + train_mq_data_size_mean)
+    #print("y=")
+    #print((sess.run(tf_size_factor) * train_mq_data_size_norm + sess.run(tf_failure_offset)) * train_failure_std + train_failure_mean)
     #print(sess.run(tf_size_factor) * train_mq_data_size_norm + sess.run(tf_failure_offset)) * train_failure_std + train_failure_mean)
     #print("x/y=")
     #print((train_mq_data_size_norm * train_mq_data_size_std + train_mq_data_size_mean)/(sess.run(tf_size_factor) * train_mq_data_size_norm + sess.run(tf_failure_offset)) * train_failure_std + train_failure_mean))
